@@ -4,6 +4,11 @@ body {
 #muziekplaatje {
 	width: 40%;
 	height: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
 #pagina_inhoud_concerten {
@@ -35,7 +40,7 @@ table {
 
 th, td {
     padding : 10px;
-    background-color: #e2cfd4;
+    background-color: #e2b5b5;
 }
 
 #bereken_busreis {

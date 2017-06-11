@@ -12,7 +12,7 @@
 	?>
 	<h1 class = "title">Concerten</h1>
 	<div id = "pagina_inhoud_concerten">
-		<img id = "muziekplaatje" src = "images/concerten/muziek.jpg" />
+		<img id = "muziekplaatje" src = "images/concerten/band<?php echo(mt_rand(1,8)); ?>.jpg" />
         <div id = "float_right">
             <table>
                 <tr>
@@ -82,7 +82,7 @@
                 </p>
                 <form action="" method="GET">
                     Wat is je leeftijd? <input type="text" name="leeftijd">
-                    <input type="submit">
+                    <input type="submit" value="Bereken">
                 </form>
                 <?php
                 include ("busreis.php");
