@@ -2,8 +2,8 @@ body {
 	margin: 0;
 }
 #muziekplaatje {
-	width: 42.5%;
-	height: 42.5%;
+	width: 40%;
+	height: 40%;
 }
 
 #pagina_inhoud_concerten {
@@ -25,15 +25,31 @@ body {
     margin-bottom: 5%;
     width: 90%;
     background-color: #D3D9E2;
+    clear: both;
+    font-size: 0;
 }
 
 table {
-    float: right;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
     padding : 10px;
+    background-color: #e2cfd4;
+}
+
+#bereken_busreis {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+    background-color: #e2cfd4;
+    padding: 10px;
+}
+
+#bereken_busreis p {
+    margin: 0;
+}
+
+#float_right {
+    float: right;
 }
