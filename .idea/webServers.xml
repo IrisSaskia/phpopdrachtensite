@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="805c1695-65e5-4936-927a-c125e08f856b" name="Oude schoolsite" url="http://ftp://irisoostra.helenparkhurst.net:2222">
+        <fileTransfer host="ftp://irisoostra.helenparkhurst.net:2222" port="2222">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
