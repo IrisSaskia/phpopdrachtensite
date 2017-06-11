@@ -1,0 +1,30 @@
+#pagina_inhoud_home {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+#pagina_inhoud_home h3 {
+	font-family: 'Concert One', cursive;
+	margin-top: 0;
+}
+#pagina_inhoud_home p {
+	font-family: 'Dosis', sans-serif;
+	margin-top: 0;
+	margin-left: 3%;
+}
+#pagina_inhoud_home .plaatje {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-right: 5%;
+	margin-top: 1.5%;
+	margin-bottom: 2%;
+}
+.artikel {
+	position: relative;
+}

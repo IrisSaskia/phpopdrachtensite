@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+#muziekplaatje {
+	width: 42.5%;
+	height: 42.5%;
+}
+
+#pagina_inhoud_concerten {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+
+.band_image_small {
+    width: 10%;
+    height: auto;
+    margin-right: 5%;
+}
+
+#concert_images_container {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    background-color: #D3D9E2;
+}
+
+table {
+    float: right;
+    margin-right: 10%;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding : 10px;
+}
