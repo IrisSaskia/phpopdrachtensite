@@ -91,10 +91,13 @@
         </div>
 	</div>
 	<div id = "concert_images_container">
-			<img src = "images/concerten/avengedsevenfold.jpg" class = "band_image_small"/>
-			<img src = "images/concerten/greenday.jpg" class = "band_image_small"/>
-			<img src = "images/concerten/mychemicalromance.jpeg" class = "band_image_small"/>
-			<img src = "images/concerten/panicatthedisco.jpg" class = "band_image_small"/>
+		<img src = "images/concerten/avengedsevenfold.jpg" class = "band_image_small"/>
+		<img src = "images/concerten/greenday.jpg" class = "band_image_small"/>
+		<img src = "images/concerten/mychemicalromance.jpeg" class = "band_image_small"/>
+		<img src = "images/concerten/panicatthedisco.jpg" class = "band_image_small"/>
+        <img src = "images/concerten/nirvana.jpg" class = "band_image_small" />
+        <img src = "images/concerten/slipknot.jpg" class = "band_image_small" />
+        <img src = "images/concerten/theoffspring.jpg" class = "band_image_small_right" />
 	</div>
 	<?php
 		include ("footer.html");

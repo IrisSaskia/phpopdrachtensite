@@ -1,0 +1,26 @@
+#boom_blok {
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 4%;
+    width: 12%;
+}
+
+#boom {
+    margin-bottom: 5%;
+    background-color: #e2b5b5;
+    padding: 10px;
+}
+
+#boom p {
+    text-align: center;
+    line-height: 30%;
+}
+
+#form_boom {
+    background-color: #e2cfd4;
+    padding: 10px;
+}
+
+#form_boom input {
+    margin-top: 2.5%;
+}

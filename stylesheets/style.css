@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #E2C5B3;
 }
 #menu {
 	background-color: #AA3131;
@@ -25,7 +26,10 @@ body {
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 	line-height: 50px;
+	border-left: 3px solid #AA3131;
+	border-right: 3px solid #AA3131;
 }
+
 .menu_item:hover {
 	border-left: 3px solid white;
 	border-right: 3px solid white;
@@ -44,27 +48,32 @@ body {
     margin-left: 13.5%;
 }
 
-#home_link {
-	background-image: url("/images/header/home.jpg");
+#home_link:hover {
+	background-image: url("../images/header/home.jpg");
+	background-size: cover;
 }
 #concerten_link:hover {
-	background-image: url("images/header/concert.jpg");
+	background-image: url("../images/header/concert.jpg");
+	background-size: cover;
 }
 #sport_link:hover {
-	background-image: url("images/header/sport.jpg");
+	background-image: url("../images/header/sport.jpg");
+	background-size: cover;
 }
 #recepten_link:hover {
-	background-image: url("images/header/recept.jpg");
+	background-image: url("../images/header/recept.jpg");
+	background-size: cover;
 }
 #contact_link:hover {
-	background-image: url("images/header/contact.jpg");
+	background-image: url("../images/header/contact.jpg");
+	background-size: cover;
 }
 
 #footer {
 	background-color: #e2614a;
 	width: 100%;
 	height: 175px;
-	/*position: absolute;*/
+	clear: both;
 	bottom: 0;
 	z-index: 2;
 }

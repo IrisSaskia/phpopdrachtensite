@@ -25,6 +25,12 @@ body {
     margin-right: 5%;
 }
 
+.band_image_small_right {
+    width: 10%;
+    height: auto;
+    margin-right: 0%;
+}
+
 #concert_images_container {
     margin-left: 5%;
     margin-bottom: 5%;
@@ -32,6 +38,7 @@ body {
     background-color: #D3D9E2;
     clear: both;
     font-size: 0;
+    padding: 10px;
 }
 
 table {
@@ -46,7 +53,7 @@ th, td {
 #bereken_busreis {
     margin-top: 5%;
     margin-right: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
     background-color: #e2cfd4;
     padding: 10px;
 }
