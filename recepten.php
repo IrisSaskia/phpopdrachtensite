@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>BierHier - Recepten</title>
+
 	<link href="https://fonts.googleapis.com/css?family=Concert+One|Dosis:500" rel="stylesheet">
-    <script src="jquery/jquery-1.9.1.js"></script>
-    <script src="jquery/jquery-ui-1.10.3.custom.min.js"></script>
-    <link rel="stylesheet" href="jquery/jquery-ui-1.10.3.custom.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <script src="jquery/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/stylerecepten.css">
     <script>
         $(function() {
@@ -24,7 +27,7 @@
             <ul>
                 <li class="tablink"><a href="#tabs-1">Oma's appeltaart</a></li>
                 <li class="tablink"><a href="#tabs-2">Tompoucen</a></li>
-                <li class="tablink"><a href="#tabs-3">Aenean lacinia</a></li>
+                <li class="tablink"><a href="#tabs-3">Bosvruchtentaartje</a></li>
             </ul>
             <div id="tabs-1">
                 <h3>Ingrediënten oma’s appeltaart</h3>

@@ -57,15 +57,11 @@
 }
 
 #tabs ul .tablink {
-    background-color: #f2e1d7;
+
     border: 0;
     border-radius: 0;
     margin-top: 5px;
     margin-left: 5px;
-}
-
-#tabs ul .tablink:hover {
-    font-style: italic;
 }
 
 #tabs ul li a {
