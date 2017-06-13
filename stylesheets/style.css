@@ -26,6 +26,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 	line-height: 50px;
+	background-color: #AA3131;
 	border-left: 3px solid #AA3131;
 	border-right: 3px solid #AA3131;
 }
@@ -38,7 +39,7 @@ body {
 }
 
 .title {
-	margin-top: 75px;
+	margin-top: 90px;
 	font-family: 'Concert One', cursive;
 	font-weight: bold;
 	font-size: 42px;
@@ -51,6 +52,7 @@ body {
 #home_link:hover {
 	background-image: url("../images/header/home.jpg");
 	background-size: cover;
+
 }
 #concerten_link:hover {
 	background-image: url("../images/header/concert.jpg");

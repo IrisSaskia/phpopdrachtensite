@@ -19,9 +19,9 @@ if(isset($_GET["leeftijd"])) {
         $uiteindelijkeprijs = $prijs;
     }
 
-    echo "De ingevoerde leeftijd is: " . $leeftijd . ".";
+    echo "Uw leeftijd is: " . $leeftijd . ".";
     echo "<br />";
-    echo "De uiteindelijke prijs is: " . $uiteindelijkeprijs . ".";
+    echo "Uw busprijs is: &euro;" . $uiteindelijkeprijs . ",-.";
 } else {
     echo "U heeft nog geen leeftijd ingevoerd.";
 }

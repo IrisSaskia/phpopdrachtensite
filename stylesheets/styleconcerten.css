@@ -1,6 +1,11 @@
-body {
-	margin: 0;
+#pagina_inhoud_concerten {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
 }
+
 #muziekplaatje {
 	width: 40%;
 	height: 40%;
@@ -11,51 +16,13 @@ body {
     box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 }
 
-#pagina_inhoud_concerten {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    z-index: 1;
-}
-
-.band_image_small {
-    width: 10%;
-    height: auto;
-    margin-right: 5%;
-}
-
-.band_image_small_right {
-    width: 10%;
-    height: auto;
-    margin-right: 0%;
-}
-
-#concert_images_container {
-    margin-left: 5%;
-    margin-bottom: 5%;
-    width: 90%;
-    background-color: #D3D9E2;
-    clear: both;
-    font-size: 0;
-    padding: 10px;
-}
-
-table {
-    margin-right: 5%;
-}
-
-th, td {
-    padding : 10px;
-    background-color: #e2b5b5;
-}
-
 #bereken_busreis {
     margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
-    background-color: #e2cfd4;
+    background-color: #e8d1c2;
     padding: 10px;
+    font-family: 'Dosis', sans-serif;
 }
 
 #bereken_busreis p {
@@ -64,4 +31,42 @@ th, td {
 
 #float_right {
     float: right;
+}
+
+table {
+    margin-right: 5%;
+    font-family: 'Dosis', sans-serif;
+}
+
+th, td {
+    padding : 10px;
+    background-color: #e8d1c2;
+}
+
+#concert_images_container {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    background-color: #f2e1d7;
+    clear: both;
+    font-size: 0;
+    padding: 10px;
+}
+
+.band_image_small {
+    width: 10%;
+    height: auto;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.band_image_small_right {
+    width: 10%;
+    height: auto;
+    margin-right: 0%;
+    cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
 }

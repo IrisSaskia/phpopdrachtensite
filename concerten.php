@@ -78,11 +78,11 @@
             </table>
             <div id="bereken_busreis">
                 <p>
-                    Wil je weten hoeveel je busreis naar het concert kost?<br />Voer dan hier je leeftijd in en het wordt zo berekend!
+                    Wilt u weten hoeveel uw busreis naar het concert kost?<br />Voer dan hier uw leeftijd in en het wordt zo berekend!
                 </p>
                 <form action="" method="GET">
-                    Wat is je leeftijd? <input type="text" name="leeftijd">
-                    <input type="submit" value="Bereken">
+                    Wat is uw leeftijd? <input type="text" name="leeftijd">
+                    <input class = "button" type="submit" value="Bereken">
                 </form>
                 <?php
                 include ("busreis.php");

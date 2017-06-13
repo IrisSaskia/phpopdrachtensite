@@ -10,7 +10,7 @@
 	<?php
 		include ("header.html");
 	?>
-	<h1 class = "title">Nieuws uit Almere Buiten</h1>
+	<h1 class = "title">Nieuws</h1>
 	<div id = "pagina_inhoud_home">
 		<div class="artikel">
 			<p>

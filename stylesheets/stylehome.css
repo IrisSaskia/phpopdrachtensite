@@ -8,15 +8,22 @@
     margin-bottom: 5%;
     z-index: 1;
 }
+
+#pagina_inhoud_home {
+	font-family: 'Dosis', sans-serif;
+}
+
 #pagina_inhoud_home h3 {
 	font-family: 'Concert One', cursive;
 	margin-top: 0;
+	background-color: #f2e1d7;
 }
+
 #pagina_inhoud_home p {
-	font-family: 'Dosis', sans-serif;
 	margin-top: 0;
 	margin-left: 3%;
 }
+
 #pagina_inhoud_home .plaatje {
 	width: 35%;
 	height: auto;

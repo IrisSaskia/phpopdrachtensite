@@ -1,13 +1,21 @@
+#pagina_inhoud_recepten {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+
 #boom_blok {
     float: right;
+    width: 20%;
     margin-bottom: 5%;
-    margin-right: 4%;
-    width: 12%;
+    font-family: 'Dosis', sans-serif;
 }
 
 #boom {
     margin-bottom: 5%;
-    background-color: #e2b5b5;
+    background-color: #e8d1c2;
     padding: 10px;
 }
 
@@ -17,10 +25,54 @@
 }
 
 #form_boom {
-    background-color: #e2cfd4;
+    background-color: #e8d1c2;
     padding: 10px;
 }
 
 #form_boom input {
     margin-top: 2.5%;
+}
+
+.button {
+    cursor: pointer;
+}
+
+#tabs {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    width: 75%;
+    color: black;
+    float: left;
+    margin-bottom: 5%;
+    padding: 0;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs ul {
+    background-color: #e8d1c2;
+    border: 0;
+    border-radius: 0;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+
+#tabs ul .tablink {
+    background-color: #f2e1d7;
+    border: 0;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#tabs ul .tablink:hover {
+    font-style: italic;
+}
+
+#tabs ul li a {
+    font-family: 'Concert One', cursive;
+    color: black;
+}
+
+#tabs-1 p, #tabs-2 p, #tabs-3 p {
+    margin: 10px;
 }
