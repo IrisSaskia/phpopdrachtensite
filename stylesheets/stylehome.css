@@ -35,3 +35,28 @@
 .artikel {
 	position: relative;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1281px) and (orientation: landscape) {
+	#pagina_inhoud_home {
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+	}
+}
+
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) {
+	#pagina_inhoud_home {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera
+		-moz-column-count: 1; /* Firefox
+		column-count: 1;
+	}
+}*/
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) and (orientation: portrait) {
+	#pagina_inhoud_home {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+}
+

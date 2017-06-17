@@ -1,0 +1,21 @@
+application: bierhier-iris
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /(.+\.(html|js|css|gif|png|jpg|svg))$
+  static_files: \1
+  upload: .+\.(html|js|css|gif|png|jpg|svg)$
+  application_readable: true
+
+- url: /(.+\.php)$
+  script: \1
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: .*
+  script: index.php

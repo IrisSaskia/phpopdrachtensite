@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background-color: #E2C5B3;
+	/*-webkit-text-size-adjust: 100%;*/
 }
 #menu {
 	background-color: #AA3131;
@@ -34,7 +35,6 @@ body {
 .menu_item:hover {
 	border-left: 3px solid white;
 	border-right: 3px solid white;
-	/*background-color: #350C2C;*/
 	cursor: pointer;
 }
 
@@ -85,6 +85,7 @@ body {
 	float: left;
 	width: 20%;
 	padding: 0;
+	margin-left: 2%;
 }
 #footer ul li {
 	text-align: center;
@@ -92,7 +93,7 @@ body {
 	width: 100%;
 }
 .footer_item a {
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
@@ -109,4 +110,70 @@ body {
 	color: white;
 	margin-top: 135px;
 	margin-right: 20px;
+}
+
+.image_menu {
+	display: none;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: landscape) {
+	#footer ul {
+		width: 25%;
+	}
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1280px) and (orientation: portrait) {
+	#footer ul {
+		width: 45%;
+	}
+	.menu_item {
+		width: 17%;
+	}
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 415px) and (orientation: portrait) {
+	#footer ul {
+		width: 100%;
+		margin-left: 0;
+	}
+	#footer p {
+		margin-top: 10px;
+	}
+	#footer {
+		height: 200px;
+	}
+	#home_link:hover, #concerten_link:hover, #sport_link:hover, #recepten_link:hover, #contact_link:hover {
+		background-image: none;
+		background-color: #e8d1c2;
+		border-left-width: 0px;
+		border-right-width: 0px;
+	}
+	.menu_item {
+		font-size: 0em;
+		width: 17%;
+		margin-left: 2%;
+		line-height: 0px;
+		color: transparent;
+		border-left-width: 0px;
+		border-right-width: 0px;
+		align-content: center;
+	}
+	#menu ul {
+		padding: 0;
+	}
+	#menu {
+		height: 55px;
+	}
+	.image_menu {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		height: 45px;
+		display: block;
+		align-self: center;
+	}
+	#menu {
+		position: absolute;
+	}
 }

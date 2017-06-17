@@ -57,7 +57,6 @@
 }
 
 #tabs ul .tablink {
-
     border: 0;
     border-radius: 0;
     margin-top: 5px;
@@ -71,4 +70,42 @@
 
 #tabs-1 p, #tabs-2 p, #tabs-3 p {
     margin: 10px;
+}
+
+.food_image {
+    float: right;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1281px) and (orientation: landscape) {
+
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) and (orientation: portrait) {
+    #tabs {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #boom_blok {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .food_image {
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        width: 25%;
+        margin-right: 2%;
+        margin-top: 10%;
+    }
 }

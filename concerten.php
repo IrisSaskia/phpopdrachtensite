@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Concert+One|Dosis:500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/styleconcerten.css">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
 </head>
 <body>
 	<?php
@@ -52,7 +53,7 @@
                     <td>My Chemical Romance</td>
                 </tr>
                 <tr>
-                    <td>25 novemmber 2017</td>
+                    <td>25 november 2017</td>
                     <td>15:00</td>
                     <td>Lelystad</td>
                     <td>Slipknot</td>
@@ -89,15 +90,15 @@
                 ?>
             </div>
         </div>
-	</div>
-	<div id = "concert_images_container">
-		<img src = "images/concerten/avengedsevenfold.jpg" class = "band_image_small"/>
-		<img src = "images/concerten/greenday.jpg" class = "band_image_small"/>
-		<img src = "images/concerten/mychemicalromance.jpeg" class = "band_image_small"/>
-		<img src = "images/concerten/panicatthedisco.jpg" class = "band_image_small"/>
-        <img src = "images/concerten/nirvana.jpg" class = "band_image_small" />
-        <img src = "images/concerten/slipknot.jpg" class = "band_image_small" />
-        <img src = "images/concerten/theoffspring.jpg" class = "band_image_small_right" />
+        <div id = "concert_images_container">
+            <img src = "images/concerten/avengedsevenfold.jpg" class = "band_image_small"/>
+            <img src = "images/concerten/greenday.jpg" class = "band_image_small"/>
+            <img src = "images/concerten/mychemicalromance.jpg" class = "band_image_small"/>
+            <img src = "images/concerten/panicatthedisco.jpg" class = "band_image_small"/>
+            <img src = "images/concerten/nirvana.jpg" class = "band_image_small" />
+            <img src = "images/concerten/slipknot.jpg" class = "band_image_small" />
+            <img src = "images/concerten/theoffspring.jpg" class = "band_image_small_right" />
+        </div>
 	</div>
 	<?php
 		include ("footer.html");

@@ -9,7 +9,7 @@
 #muziekplaatje {
 	width: 40%;
 	height: 40%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 5%;
     -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -44,9 +44,7 @@ th, td {
 }
 
 #concert_images_container {
-    margin-left: 5%;
-    margin-bottom: 5%;
-    width: 90%;
+    width: 100%;
     background-color: #f2e1d7;
     clear: both;
     font-size: 0;
@@ -69,4 +67,46 @@ th, td {
 
 .button {
     cursor: pointer;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1281px) and (orientation: landscape) {
+
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) and (orientation: portrait) {
+    #muziekplaatje {
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 20px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        margin-bottom: 20px;
+    }
+
+    table {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #float_right {
+        float: none;
+        width: 100%;
+    }
+
+    #bereken_busreis {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #concert_images_container {
+        width: 100%;
+        background-color: #f2e1d7;
+        margin-bottom: 20px;
+        clear: none;
+    }
 }
